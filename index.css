@@ -1,0 +1,118 @@
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+body{
+    background-color: #581c87;
+    font-family: 'Cinzel', serif;
+}
+.nav-title{
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 3rem;
+}
+#app-content{
+    display: flex;
+    background-color: #ddd6fe;
+    border: .5rem solid #8b5cf6;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+#form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    justify-items: center;
+    margin-top: 1rem;
+}
+.input-content{
+    width: 85%;
+    height: 1.2rem;
+    border: transparent;
+    background-color: rgb(255, 255, 255);
+    border-radius: .5rem;
+}
+
+#List{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    width: 80%;
+    padding: 0;
+    max-height: 25rem;
+    overflow-y: auto;
+}
+.tasks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    border-top: .25rem solid #8b5cf6;
+}
+#count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    width: 80%;
+    font-size: .85rem;
+    margin: inherit;
+    height: 2rem;
+}
+
+.btn-add:hover{
+    color: white;
+}
+.delete-btn:hover{
+    color: white;
+}
+.check-btn:hover{
+    color: white;
+}
+.tasks:hover {
+    color: white;
+}
+.btn-add{
+    height: 2.25rem;
+    width: 2.25rem;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    color: #581c87;
+}
+.delete-btn{
+    width: 3.5rem;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    color: #581c87;
+}
+.text-task{
+    width: 80%;
+}
+.tasks-finish{
+    background-color: rgba(114, 234, 116, 0.342);
+    text-decoration: line-through;
+}
+.check-btn{
+    width: 3.5rem;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    color: #581c87;
+}
