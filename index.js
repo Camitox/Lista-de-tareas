@@ -85,7 +85,6 @@ list.addEventListener('click', e => {
     todoCount();
       localStorage.setItem('TaskList', list.innerHTML);
   }
-
 });
 
     // cuando Precionas Chequear
@@ -100,7 +99,9 @@ list.addEventListener('click', e => {
     li.classList.add('task');
   }
   todoCount();
+  localStorage.setItem('TaskList', list.innerHTML);
 });
+
 
 // funcion de invocar a si misma un funcion, sirve para obtener los datos que se guardan en el local storage
 (() => {

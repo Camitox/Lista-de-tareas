@@ -104,6 +104,7 @@ body{
 }
 .text-task{
     width: 80%;
+    word-break: break-all;
 }
 .tasks-finish{
     background-color: rgba(114, 234, 116, 0.342);
